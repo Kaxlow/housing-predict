@@ -238,9 +238,11 @@ def _normalize_county_name(value: Any) -> str:
 def _zone_mapping_rows(noaa: pd.DataFrame, counties: pd.DataFrame) -> list[dict[str, Any]]:
     zones = noaa.loc[noaa["cz_type"].eq("Z")].copy()
     zones["total_damage"] = pd.to_numeric(zones["total_damage"], errors="coerce").fillna(0)
+    zones["normalized_cz_name"] = zones["cz_name"].map(_normalize_county_name)
     summaries = (
-        zones.groupby(["state", "state_fips", "cz_fips", "cz_name"], dropna=False)
+        zones.groupby(["state", "state_fips", "cz_fips", "normalized_cz_name"], dropna=False)
         .agg(
+            cz_name=("cz_name", "first"),
             source_row_count=("cz_name", "size"),
             source_total_damage=("total_damage", "sum"),
             max_row_damage=("total_damage", "max"),
@@ -261,7 +263,7 @@ def _zone_mapping_rows(noaa: pd.DataFrame, counties: pd.DataFrame) -> list[dict[
     rows: list[dict[str, Any]] = []
     for zone in summaries.itertuples(index=False):
         state_fips = str(zone.state_fips).zfill(2)
-        zone_name = _normalize_county_name(zone.cz_name)
+        zone_name = zone.normalized_cz_name
         candidates = county_lookup.get(state_fips, [])
         matches: list[tuple[str, str, str, str]] = []
 
@@ -298,6 +300,7 @@ def _zone_mapping_rows(noaa: pd.DataFrame, counties: pd.DataFrame) -> list[dict[
             "state_fips": state_fips,
             "cz_fips": zone.cz_fips,
             "cz_name": zone.cz_name,
+            "normalized_cz_name": zone_name,
             "source_row_count": zone.source_row_count,
             "source_total_damage": zone.source_total_damage,
             "max_row_damage": zone.max_row_damage,
@@ -341,8 +344,18 @@ def _process_zone_county_mapping(
     )
     counties = pd.read_csv(county_path, usecols=["fips", "county_name"], dtype=str)
     rows = _zone_mapping_rows(noaa, counties)
+    result = pd.DataFrame(rows)
+    null_safe_key = ["state_fips", "cz_fips", "normalized_cz_name", "mapped_fips"]
+    key_frame = result[null_safe_key].fillna("<UNMAPPED>").astype(str)
+    duplicate_mask = key_frame.duplicated(keep=False)
+    if duplicate_mask.any():
+        examples = result.loc[duplicate_mask, null_safe_key].head(10).to_dict("records")
+        raise RuntimeError(
+            "NOAA mapping violates its null-safe uniqueness key "
+            f"{null_safe_key}: {examples}"
+        )
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(rows).to_csv(output_path, index=False)
+    result.to_csv(output_path, index=False)
     return output_path
 
 
