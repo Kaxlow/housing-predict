@@ -1,0 +1,65 @@
+{
+  "question": "How much can county characteristics explain county home values?",
+  "target": "target_median_owner_occupied_home_value_2024_usd",
+  "periods": [
+    2014,
+    2019,
+    2024
+  ],
+  "rows": 9420,
+  "counties_by_period": {
+    "2014": 3141,
+    "2019": 3140,
+    "2024": 3139
+  },
+  "features": 57,
+  "selected_model": "hist_direct_2",
+  "best_ml": "hist_direct_2",
+  "run_mode": "full",
+  "seed": 42,
+  "weighting": "Equal county-period weights",
+  "forecast_selected": {
+    "history_only": "elastic_net_1",
+    "history_plus_characteristics": "elastic_net_1"
+  },
+  "fixed_effects": {
+    "rows": 9363,
+    "counties": 3121,
+    "within_r2": 0.13205025114611568,
+    "excluded_rows": 57,
+    "features": [
+      "log1p__median_household_income_2024_usd",
+      "bachelors_degree_or_higher_pct",
+      "vacant_housing_units_pct",
+      "detached_single_unit_pct",
+      "mean_commute_time_minutes",
+      "average_household_size"
+    ],
+    "uncertainty": "County-clustered t intervals; not spatially clustered; no causal identification"
+  },
+  "sources": {
+    "acs_comparisons": "https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data.html",
+    "county_changes": "https://www.census.gov/programs-surveys/geography/technical-documentation/county-changes.2010.html",
+    "geography_changes": "https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html",
+    "release_schedule": "https://www.census.gov/programs-surveys/acs/news/data-releases/2024/release-schedule.html"
+  },
+  "panel_sha256": "e8a608b4cb964d09e9bb5fc849380f330a005255c9ef1bb88a8095892c44e82e",
+  "versions": {
+    "python": "3.13.9",
+    "sklearn": "1.8.0",
+    "pandas": "2.3.3",
+    "duckdb": "1.5.3"
+  },
+  "limitations": [
+    "Observational associations, not causal effects or individual-house appraisals.",
+    "Same-period ACS characteristics estimate home values; this is not advance forecasting.",
+    "Geographic folds are county-disjoint but neighboring counties can remain correlated.",
+    "Fixed-effects sample excludes known changes and incomplete histories; no areal crosswalk.",
+    "Minor boundary changes and ACS margins of error are not modeled.",
+    "Annual forecast labels overlap four ACS survey years; release vintages are not reconstructed.",
+    "2024 ACS five-year estimates were released January 29, 2026; no operational end-2024 forecast claim.",
+    "Hazard absence is assumed zero in event marts; reporting and mapping gaps may remain.",
+    "Metro labels come from a static reference and are used only for error breakdowns.",
+    "Ablations and explanations are prespecified held-out diagnostics, not model-selection evidence."
+  ]
+}

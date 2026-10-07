@@ -1,0 +1,15 @@
+{
+  "rows": 9363,
+  "counties": 3121,
+  "within_r2": 0.13205025114611568,
+  "excluded_rows": 57,
+  "features": [
+    "log1p__median_household_income_2024_usd",
+    "bachelors_degree_or_higher_pct",
+    "vacant_housing_units_pct",
+    "detached_single_unit_pct",
+    "mean_commute_time_minutes",
+    "average_household_size"
+  ],
+  "uncertainty": "County-clustered t intervals; not spatially clustered; no causal identification"
+}

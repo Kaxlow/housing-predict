@@ -1,0 +1,964 @@
+feature_name,acs_table,unit,year,source_variable,expected_label_pattern
+labor_force_pct,dp03,percent,2024,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2023,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2022,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2021,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2020,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2019,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2018,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2017,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2016,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2015,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2014,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2013,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2012,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2011,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+labor_force_pct,dp03,percent,2010,DP03_0002PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force$
+employed_pct,dp03,percent,2024,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2023,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2022,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2021,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2020,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2019,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2018,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2017,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2016,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2015,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2014,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2013,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2012,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2011,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+employed_pct,dp03,percent,2010,DP03_0004PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Population 16 years and over!!)?In labor force!!Civilian labor force!!Employed$
+unemployment_rate_pct,dp03,percent,2024,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2023,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2022,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2021,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2020,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2019,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2018,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2017,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2016,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+unemployment_rate_pct,dp03,percent,2015,DP03_0009PE,(?i)^Percent(?: Estimate)?!!EMPLOYMENT STATUS!!(?:Civilian labor force!!)?Unemployment [Rr]ate$
+drove_alone_to_work_pct,dp03,percent,2024,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2023,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2022,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2021,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2020,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2019,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2018,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2017,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2016,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2015,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2014,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2013,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2012,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2011,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+drove_alone_to_work_pct,dp03,percent,2010,DP03_0019PE,"(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Car, truck, or van -- drove alone$"
+public_transit_to_work_pct,dp03,percent,2024,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2023,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2022,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2021,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2020,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2019,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2018,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2017,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2016,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2015,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2014,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2013,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2012,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2011,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+public_transit_to_work_pct,dp03,percent,2010,DP03_0021PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Public transportation(?: \(excluding taxicab\))?$
+walked_to_work_pct,dp03,percent,2024,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2023,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2022,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2021,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2020,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2019,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2018,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2017,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2016,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2015,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2014,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2013,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2012,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2011,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+walked_to_work_pct,dp03,percent,2010,DP03_0022PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Walked$
+worked_from_home_pct,dp03,percent,2024,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2023,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2022,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2021,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2020,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2019,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2018,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2017,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2016,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2015,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2014,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2013,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2012,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2011,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+worked_from_home_pct,dp03,percent,2010,DP03_0024PE,(?i)^Percent(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Worked (?:at|from) home$
+mean_commute_time_minutes,dp03,minutes,2024,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2023,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2022,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2021,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2020,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2019,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2018,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2017,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2016,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2015,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2014,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2013,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2012,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2011,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+mean_commute_time_minutes,dp03,minutes,2010,DP03_0025E,(?i)^Estimate(?: Estimate)?!!COMMUTING TO WORK!!(?:Workers 16 years and over!!)?Mean travel time to work \(minutes\)$
+management_business_science_arts_occupation_pct,dp03,percent,2024,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2023,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2022,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2021,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2020,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2019,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2018,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2017,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2016,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2015,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2014,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2013,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2012,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2011,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+management_business_science_arts_occupation_pct,dp03,percent,2010,DP03_0027PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Management, business, science, and arts occupations$"
+service_occupation_pct,dp03,percent,2024,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2023,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2022,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2021,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2020,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2019,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2018,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2017,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2016,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2015,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2014,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2013,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2012,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2011,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+service_occupation_pct,dp03,percent,2010,DP03_0028PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Service occupations$
+sales_office_occupation_pct,dp03,percent,2024,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2023,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2022,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2021,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2020,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2019,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2018,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2017,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2016,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2015,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2014,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2013,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2012,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2011,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+sales_office_occupation_pct,dp03,percent,2010,DP03_0029PE,(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Sales and office occupations$
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2024,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2023,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2022,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2021,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2020,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2019,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2018,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2017,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2016,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2015,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2014,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2013,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2012,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2011,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+natural_resources_construction_maintenance_occupation_pct,dp03,percent,2010,DP03_0030PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Natural resources, construction, and maintenance occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2024,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2023,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2022,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2021,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2020,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2019,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2018,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2017,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2016,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2015,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2014,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2013,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2012,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2011,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+production_transportation_material_moving_occupation_pct,dp03,percent,2010,DP03_0031PE,"(?i)^Percent(?: Estimate)?!!OCCUPATION!!(?:Civilian employed population 16 years and over!!)?Production, transportation, and material moving occupations$"
+agriculture_mining_industry_pct,dp03,percent,2024,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2023,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2022,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2021,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2020,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2019,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2018,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2017,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2016,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2015,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2014,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2013,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2012,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2011,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+agriculture_mining_industry_pct,dp03,percent,2010,DP03_0033PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Agriculture, forestry, fishing and hunting, and mining$"
+construction_industry_pct,dp03,percent,2024,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2023,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2022,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2021,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2020,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2019,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2018,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2017,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2016,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2015,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2014,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2013,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2012,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2011,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+construction_industry_pct,dp03,percent,2010,DP03_0034PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Construction$
+manufacturing_industry_pct,dp03,percent,2024,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2023,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2022,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2021,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2020,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2019,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2018,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2017,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2016,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2015,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2014,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2013,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2012,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2011,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+manufacturing_industry_pct,dp03,percent,2010,DP03_0035PE,(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Manufacturing$
+finance_real_estate_industry_pct,dp03,percent,2024,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2023,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2022,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2021,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2020,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2019,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2018,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2017,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2016,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2015,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2014,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2013,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2012,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2011,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+finance_real_estate_industry_pct,dp03,percent,2010,DP03_0040PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Finance and insurance, and real estate and rental and leasing$"
+professional_services_industry_pct,dp03,percent,2024,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2023,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2022,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2021,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2020,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2019,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2018,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2017,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2016,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2015,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2014,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2013,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2012,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2011,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+professional_services_industry_pct,dp03,percent,2010,DP03_0041PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Professional, scientific, and management, and administrative and waste management services$"
+education_health_social_services_industry_pct,dp03,percent,2024,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2023,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2022,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2021,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2020,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2019,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2018,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2017,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2016,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2015,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2014,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2013,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2012,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2011,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+education_health_social_services_industry_pct,dp03,percent,2010,DP03_0042PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Educational services, and health care and social assistance$"
+arts_hospitality_food_industry_pct,dp03,percent,2024,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2023,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2022,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2021,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2020,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2019,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2018,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2017,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2016,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2015,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2014,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2013,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2012,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2011,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+arts_hospitality_food_industry_pct,dp03,percent,2010,DP03_0043PE,"(?i)^Percent(?: Estimate)?!!INDUSTRY!!(?:Civilian employed population 16 years and over!!)?Arts, entertainment, and recreation, and accommodation and food services$"
+median_household_income_2024_usd,dp03,2024 USD,2024,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2023,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2022,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2021,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2020,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2019,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2018,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2017,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2016,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2015,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2014,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2013,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2012,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2011,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+median_household_income_2024_usd,dp03,2024 USD,2010,DP03_0062E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?Median household income \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2024,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2023,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2022,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2021,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2020,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2019,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2018,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2017,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2016,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2015,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2014,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2013,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2012,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2011,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_household_earnings_2024_usd,dp03,2024 USD,2010,DP03_0065E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With earnings!!Mean earnings \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2024,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2023,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2022,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2021,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2020,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2019,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2018,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2017,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2016,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2015,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2014,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2013,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2012,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2011,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_social_security_income_2024_usd,dp03,2024 USD,2010,DP03_0067E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Social Security(?: income)?!!Mean Social Security income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2024,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2023,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2022,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2021,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2020,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2019,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2018,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2017,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2016,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2015,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2014,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2013,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2012,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2011,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_retirement_income_2024_usd,dp03,2024 USD,2010,DP03_0069E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With retirement income!!Mean retirement income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2024,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2023,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2022,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2021,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2020,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2019,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2018,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2017,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2016,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2015,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2014,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2013,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2012,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2011,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_supplemental_security_income_2024_usd,dp03,2024 USD,2010,DP03_0071E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With Supplemental Security Income!!Mean Supplemental Security Income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2024,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2023,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2022,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2021,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2020,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2019,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2018,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2017,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2016,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2015,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2014,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2013,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2012,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2011,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+mean_cash_public_assistance_income_2024_usd,dp03,2024 USD,2010,DP03_0073E,(?i)^Estimate!!INCOME AND BENEFITS \(IN \d{4} INFLATION-ADJUSTED DOLLARS\)!!(?:Total households!!)?With cash public assistance income!!Mean cash public assistance income \(dollars\)$
+with_health_insurance_pct,dp03,percent,2024,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2023,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2022,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2021,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2020,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2019,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2018,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2017,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2016,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2015,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2014,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2013,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2012,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2011,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+with_health_insurance_pct,dp03,percent,2010,DP03_0096PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?With health insurance coverage$
+without_health_insurance_pct,dp03,percent,2024,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2023,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2022,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2021,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2020,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2019,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2018,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2017,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2016,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2015,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2014,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2013,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2012,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2011,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+without_health_insurance_pct,dp03,percent,2010,DP03_0099PE,(?i)^Percent(?: Estimate)?!!HEALTH INSURANCE COVERAGE!!(?:Civilian noninstitutionalized population!!)?No health insurance coverage$
+married_couple_household_pct,dp02,percent,2024,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+married_couple_household_pct,dp02,percent,2023,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+married_couple_household_pct,dp02,percent,2022,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+married_couple_household_pct,dp02,percent,2021,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+married_couple_household_pct,dp02,percent,2020,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+married_couple_household_pct,dp02,percent,2019,DP02_0002PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Married-couple (?:family|household)$
+cohabiting_couple_household_pct,dp02,percent,2024,DP02_0004PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Cohabiting couple household$
+cohabiting_couple_household_pct,dp02,percent,2023,DP02_0004PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Cohabiting couple household$
+cohabiting_couple_household_pct,dp02,percent,2022,DP02_0004PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Cohabiting couple household$
+cohabiting_couple_household_pct,dp02,percent,2021,DP02_0004PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Cohabiting couple household$
+cohabiting_couple_household_pct,dp02,percent,2020,DP02_0004PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Cohabiting couple household$
+single_male_householder_pct,dp02,percent,2024,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_male_householder_pct,dp02,percent,2023,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_male_householder_pct,dp02,percent,2022,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_male_householder_pct,dp02,percent,2021,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_male_householder_pct,dp02,percent,2020,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_male_householder_pct,dp02,percent,2019,DP02_0006PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Male householder, no (?:wife|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2024,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2023,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2022,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2021,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2020,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+single_female_householder_pct,dp02,percent,2019,DP02_0010PE,"(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Female householder, no (?:husband|spouse/partner) present$"
+households_with_children_pct,dp02,percent,2024,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2023,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2022,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2021,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2020,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2019,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2018,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2017,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2016,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2015,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2014,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2013,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2012,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2011,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_children_pct,dp02,percent,2010,DP02_0013PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people under 18 years$
+households_with_elderly_pct,dp02,percent,2024,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2023,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2022,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2021,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2020,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2019,DP02_0015PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2018,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2017,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2016,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2015,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2014,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2013,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2012,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2011,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+households_with_elderly_pct,dp02,percent,2010,DP02_0014PE,(?i)^Percent(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Households with one or more people 65 years and over$
+average_household_size,dp02,people,2024,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2023,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2022,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2021,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2020,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2019,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2018,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2017,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2016,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2015,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2014,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2013,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2012,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2011,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_household_size,dp02,people,2010,DP02_0015E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average household size$
+average_family_size,dp02,people,2024,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2023,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2022,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2021,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2020,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2019,DP02_0017E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2018,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2017,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2016,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2015,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2014,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2013,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2012,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2011,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+average_family_size,dp02,people,2010,DP02_0016E,(?i)^Estimate(?: Estimate)?!!HOUSEHOLDS BY TYPE!!(?:Total households!!)?Average family size$
+women_with_birth_past_12_months_count,dp02,people,2024,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2023,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2022,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2021,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2020,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2019,DP02_0037E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2018,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2017,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2016,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2015,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2014,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2013,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2012,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2011,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+women_with_birth_past_12_months_count,dp02,people,2010,DP02_0036E,(?i)^Estimate!!FERTILITY!!Number of women 15 to 50 years old who had a birth in the past 12 months$
+high_school_graduate_or_higher_pct,dp02,percent,2024,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2023,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2022,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2021,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2020,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2019,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2018,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2017,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2016,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2015,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2014,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2013,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2012,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2011,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+high_school_graduate_or_higher_pct,dp02,percent,2010,DP02_0066PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?high school graduate or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2024,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2023,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2022,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2021,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2020,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2019,DP02_0068PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2018,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2017,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2016,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2015,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2014,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2013,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2012,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2011,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+bachelors_degree_or_higher_pct,dp02,percent,2010,DP02_0067PE,(?i)^Percent(?: Estimate)?!!EDUCATIONAL ATTAINMENT!!(?:Population 25 years and over!!)?(?:Percent )?bachelor's degree or higher$
+civilian_veterans_pct,dp02,percent,2024,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2023,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2022,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2021,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2020,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2019,DP02_0070PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2018,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2017,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2016,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2015,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2014,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2013,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2012,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2011,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+civilian_veterans_pct,dp02,percent,2010,DP02_0069PE,(?i)^Percent(?: Estimate)?!!VETERAN STATUS!!(?:Civilian population 18 years and over!!)?Civilian veterans$
+with_disability_pct,dp02,percent,2024,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2023,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2022,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2021,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2020,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2019,DP02_0072PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2018,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2017,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2016,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2015,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2014,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2013,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2012,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2011,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+with_disability_pct,dp02,percent,2010,DP02_0071PE,(?i)^Percent(?: Estimate)?!!DISABILITY STATUS OF THE CIVILIAN NONINSTITUTIONALIZED POPULATION!!(?:Total Civilian Noninstitutionalized Population!!)?With a disability$
+moved_different_county_pct,dp02,percent,2024,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2023,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2022,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2021,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2020,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2019,DP02_0083PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2018,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2017,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2016,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2015,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2014,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2013,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2012,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2011,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_county_pct,dp02,percent,2010,DP02_0082PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county$
+moved_different_state_pct,dp02,percent,2024,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2023,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2022,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2021,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2020,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2019,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2018,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2017,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2016,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2015,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2014,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2013,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2012,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2011,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_different_state_pct,dp02,percent,2010,DP02_0084PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house (?:\(in the U\.S\.\)|in the U\.S\.)|Different house \(in the U\.S\. or abroad\)!!Different house in the U\.S\.)!!Different county!!Different state$
+moved_from_abroad_pct,dp02,percent,2024,DP02_0087PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2023,DP02_0087PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2022,DP02_0087PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2021,DP02_0087PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2020,DP02_0087PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2019,DP02_0086PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2018,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2017,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2016,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2015,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2014,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2013,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2012,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2011,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+moved_from_abroad_pct,dp02,percent,2010,DP02_0085PE,(?i)^Percent(?: Estimate)?!!RESIDENCE 1 YEAR AGO!!(?:Population 1 year and over!!)?(?:Different house \(in the U\.S\. or abroad\)!!)?Abroad$
+limited_english_proficiency_pct,dp02,percent,2024,DP02_0115PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2023,DP02_0115PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2022,DP02_0115PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2021,DP02_0115PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2020,DP02_0115PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2019,DP02_0114PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2018,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2017,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2016,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2015,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2014,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2013,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2012,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2011,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+limited_english_proficiency_pct,dp02,percent,2010,DP02_0113PE,"(?i)^Percent(?: Estimate)?!!LANGUAGE SPOKEN AT HOME!!(?:Population 5 years and over!!)?Language other than English!!Speak English less than \""very well\""$"
+households_without_computer_pct,dp02,percent,2024,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2023,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2022,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2021,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2020,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2019,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2018,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2017,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2016,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2015,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2014,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_computer_pct,dp02,percent,2013,DP02_0151PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a computer$
+households_without_broadband_pct,dp02,percent,2024,DP02_0154PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2023,DP02_0154PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2022,DP02_0154PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2021,DP02_0154PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2020,DP02_0154PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2019,DP02_0153PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2018,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2017,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2016,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2015,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2014,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+households_without_broadband_pct,dp02,percent,2013,DP02_0152PE,(?i)^Percent(?: Estimate)?!!COMPUTERS AND INTERNET USE!!(?:Total households!!)?With a broadband Internet subscription$
+housing_units,dp04,housing units,2024,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2023,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2022,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2021,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2020,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2019,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2018,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2017,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2016,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2015,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2014,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2013,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2012,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2011,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+housing_units,dp04,housing units,2010,DP04_0001E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!Total housing units$
+vacant_housing_units_pct,dp04,percent,2024,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2023,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2022,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2021,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2020,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2019,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2018,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2017,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2016,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2015,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2014,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2013,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2012,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2011,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+vacant_housing_units_pct,dp04,percent,2010,DP04_0003PE,(?i)^Percent(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Vacant housing units$
+homeowner_vacancy_rate_pct,dp04,percent,2024,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2023,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2022,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2021,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2020,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2019,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2018,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2017,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2016,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2015,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2014,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2013,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2012,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2011,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+homeowner_vacancy_rate_pct,dp04,percent,2010,DP04_0004E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Homeowner vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2024,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2023,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2022,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2021,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2020,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2019,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2018,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2017,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2016,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2015,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2014,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2013,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2012,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2011,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+rental_vacancy_rate_pct,dp04,percent,2010,DP04_0005E,(?i)^Estimate(?: Estimate)?!!HOUSING OCCUPANCY!!(?:Total housing units!!)?Rental vacancy rate$
+detached_single_unit_pct,dp04,percent,2024,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2023,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2022,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2021,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2020,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2019,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2018,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2017,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2016,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2015,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2014,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2013,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2012,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2011,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+detached_single_unit_pct,dp04,percent,2010,DP04_0007PE,"(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?1-unit, detached$"
+large_multifamily_20_plus_units_pct,dp04,percent,2024,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2023,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2022,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2021,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2020,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2019,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2018,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2017,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2016,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2015,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2014,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2013,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2012,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2011,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+large_multifamily_20_plus_units_pct,dp04,percent,2010,DP04_0013PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?20 or more units$
+mobile_home_pct,dp04,percent,2024,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2023,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2022,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2021,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2020,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2019,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2018,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2017,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2016,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2015,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2014,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2013,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2012,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2011,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+mobile_home_pct,dp04,percent,2010,DP04_0014PE,(?i)^Percent(?: Estimate)?!!UNITS IN STRUCTURE!!(?:Total housing units!!)?Mobile home$
+built_1939_or_earlier_pct,dp04,percent,2024,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2023,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2022,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2021,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2020,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2019,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2018,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2017,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2016,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2015,DP04_0026PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2014,DP04_0025PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2013,DP04_0025PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2012,DP04_0025PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2011,DP04_0025PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+built_1939_or_earlier_pct,dp04,percent,2010,DP04_0025PE,(?i)^Percent(?: Estimate)?!!YEAR STRUCTURE BUILT!!(?:Total housing units!!)?Built 1939 or earlier$
+median_rooms_per_unit,dp04,rooms,2024,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2023,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2022,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2021,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2020,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2019,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2018,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2017,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2016,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2015,DP04_0037E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2014,DP04_0036E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2013,DP04_0036E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2012,DP04_0036E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2011,DP04_0036E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+median_rooms_per_unit,dp04,rooms,2010,DP04_0036E,(?i)^Estimate(?: Estimate)?!!ROOMS!!(?:Total housing units!!)?Median rooms$
+owner_occupied_pct,dp04,percent,2024,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2023,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2022,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2021,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2020,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2019,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2018,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2017,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2016,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2015,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2014,DP04_0045PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2013,DP04_0045PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2012,DP04_0045PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2011,DP04_0045PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+owner_occupied_pct,dp04,percent,2010,DP04_0045PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Owner-occupied$
+renter_occupied_pct,dp04,percent,2024,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2023,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2022,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2021,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2020,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2019,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2018,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2017,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2016,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2015,DP04_0047PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2014,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2013,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2012,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2011,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+renter_occupied_pct,dp04,percent,2010,DP04_0046PE,(?i)^Percent(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Renter-occupied$
+average_owner_household_size,dp04,people,2024,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2023,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2022,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2021,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2020,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2019,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2018,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2017,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2016,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2015,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2014,DP04_0047E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2013,DP04_0047E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2012,DP04_0047E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2011,DP04_0047E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_owner_household_size,dp04,people,2010,DP04_0047E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of owner-occupied unit$
+average_renter_household_size,dp04,people,2024,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2023,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2022,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2021,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2020,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2019,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2018,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2017,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2016,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2015,DP04_0049E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2014,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2013,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2012,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2011,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+average_renter_household_size,dp04,people,2010,DP04_0048E,(?i)^Estimate(?: Estimate)?!!HOUSING TENURE!!(?:Occupied housing units!!)?Average household size of renter-occupied unit$
+householder_moved_1989_or_earlier_pct,dp04,percent,2024,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+householder_moved_1989_or_earlier_pct,dp04,percent,2023,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+householder_moved_1989_or_earlier_pct,dp04,percent,2022,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+householder_moved_1989_or_earlier_pct,dp04,percent,2021,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+householder_moved_1989_or_earlier_pct,dp04,percent,2020,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+householder_moved_1989_or_earlier_pct,dp04,percent,2019,DP04_0056PE,(?i)^Percent(?: Estimate)?!!YEAR HOUSEHOLDER MOVED INTO UNIT!!(?:Occupied housing units!!)?Moved in 1989 (?:or|and) earlier$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2024,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2023,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2022,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2021,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2020,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2019,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2018,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2017,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2016,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2015,DP04_0089E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2014,DP04_0088E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2013,DP04_0088E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2012,DP04_0088E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2011,DP04_0088E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+target_median_owner_occupied_home_value_2024_usd,dp04,2024 USD,2010,DP04_0088E,(?i)^Estimate!!VALUE!!(?:Owner-occupied units!!)?Median \(dollars\)$
+with_mortgage_pct,dp04,percent,2024,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2023,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2022,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2021,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2020,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2019,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2018,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2017,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2016,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2015,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2014,DP04_0090PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2013,DP04_0090PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2012,DP04_0090PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2011,DP04_0090PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+with_mortgage_pct,dp04,percent,2010,DP04_0090PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units with a mortgage$
+without_mortgage_pct,dp04,percent,2024,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2023,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2022,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2021,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2020,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2019,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2018,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2017,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2016,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2015,DP04_0092PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2014,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2013,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2012,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2011,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+without_mortgage_pct,dp04,percent,2010,DP04_0091PE,(?i)^Percent(?: Estimate)?!!MORTGAGE STATUS!!(?:Owner-occupied units!!)?Housing units without a mortgage$
+owner_cost_30_to_34_9_pct,dp04,percent,2024,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2023,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2022,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2021,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2020,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2019,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2018,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2017,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2016,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2015,DP04_0114PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2014,DP04_0112PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2013,DP04_0112PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2012,DP04_0112PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2011,DP04_0112PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_30_to_34_9_pct,dp04,percent,2010,DP04_0112PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+owner_cost_35_plus_pct,dp04,percent,2024,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2023,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2022,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2021,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2020,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2019,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2018,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2017,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2016,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2015,DP04_0115PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2014,DP04_0113PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2013,DP04_0113PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2012,DP04_0113PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2011,DP04_0113PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+owner_cost_35_plus_pct,dp04,percent,2010,DP04_0113PE,(?i)^Percent(?: Estimate)?!!SELECTED MONTHLY OWNER COSTS AS A PERCENTAGE OF HOUSEHOLD INCOME \(SMOCAPI\)!!(?:Housing units with a mortgage \(excluding units where SMOCAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_30_to_34_9_pct,dp04,percent,2024,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2023,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2022,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2021,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2020,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2019,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2018,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2017,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2016,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2015,DP04_0141PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2014,DP04_0139PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2013,DP04_0139PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2012,DP04_0139PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2011,DP04_0139PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_30_to_34_9_pct,dp04,percent,2010,DP04_0139PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?30\.0 to 34\.9 percent$
+gross_rent_35_plus_pct,dp04,percent,2024,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2023,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2022,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2021,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2020,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2019,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2018,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2017,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2016,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2015,DP04_0142PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2014,DP04_0140PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2013,DP04_0140PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2012,DP04_0140PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2011,DP04_0140PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$
+gross_rent_35_plus_pct,dp04,percent,2010,DP04_0140PE,(?i)^Percent(?: Estimate)?!!GROSS RENT AS A PERCENTAGE OF HOUSEHOLD INCOME \(GRAPI\)!!(?:Occupied units paying rent \(excluding units where GRAPI cannot be computed\)!!)?35\.0 percent or more$

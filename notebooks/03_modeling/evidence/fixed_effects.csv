@@ -1,0 +1,7 @@
+feature,coefficient,cluster_se,ci_low,ci_high,p_value,interpretation
+log1p__median_household_income_2024_usd,0.39231449277986863,0.034616685439109764,0.32444070544867465,0.4601882801110626,3.323223856303227e-29,Log outcome per one predictor unit; income predictor is log1p dollars
+bachelors_degree_or_higher_pct,0.006152561541547559,0.0010482691759041718,0.004097194362147397,0.008207928720947721,4.837020306433166e-09,Log outcome per one predictor unit; income predictor is log1p dollars
+vacant_housing_units_pct,-0.004825990589223076,0.0010421143999572165,-0.006869289947906272,-0.00278269123053988,3.788470162991317e-06,Log outcome per one predictor unit; income predictor is log1p dollars
+detached_single_unit_pct,0.0015599041812725666,0.0009216879106924944,-0.00024727199525982385,0.0033670803578049573,0.09066139837237783,Log outcome per one predictor unit; income predictor is log1p dollars
+mean_commute_time_minutes,0.0015854284260101773,0.0011711233846720957,-0.0007108220249361188,0.003881678876956473,0.17590871601536046,Log outcome per one predictor unit; income predictor is log1p dollars
+average_household_size,0.10208489392325362,0.028669118791989762,0.045872646933777225,0.15829714091273,0.0003752544505144336,Log outcome per one predictor unit; income predictor is log1p dollars

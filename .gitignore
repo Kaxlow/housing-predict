@@ -3,3 +3,7 @@ data/*
 scripts/*
 __pycache__/
 *.py[cod]
+.ipynb_checkpoints/
+# Local publishing workspaces, archives, and the separately managed Sites repo.
+# The production website source is maintained in Kaxlow/kaxlow.github.io.
+sites/

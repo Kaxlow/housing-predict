@@ -1,0 +1,37 @@
+{
+  "study_date": "2026-10-06",
+  "description": "Completed-study walkthrough, not original exploration.",
+  "source": "data/modeling/county_characteristics full run",
+  "sha256": {
+    "annual_example.parquet": "8eefa440fd2e1ba325e54e193394b0ad706c5adc7054d4df9a23964388f45a08",
+    "associations_by_period.csv": "89094d4f541cf4e8d5f471f99601432f1ece3fc986753411c40c6aa821ffa194",
+    "coefficient_stability.csv": "61000383f3c8fa6b0f96ac6965b8c21e2e4f43decac979647ddc23ccedb297a5",
+    "county_period_panel.parquet": "94482d08a429903e4d52b16284009ec15bab89c21e2e93c32654c7811e694424",
+    "coverage.csv": "372e4d69124756b8f48bce9ddfb56244a5e76eab11777e347ab56a62630d1ae4",
+    "error_breakdowns.csv": "60457d17955b017d9c3cbf0e618e32d534baf149f620abc02b778e74b6d166dc",
+    "exclusions.csv": "b5ab18b2890830bae531369b8a5d10edcb01382af43e2e78e8cb69d16c893d93",
+    "feature_definitions_by_year.csv": "82d4d23d65161cffddc74ee9db3f9d74edddd28076d39a383fb8d3d7bf0951a6",
+    "feature_group_experiments.csv": "7b486a54d0d23edec69c9f4ce06a0ba9618b41a36f33c7be777cfafd19cfc909",
+    "feature_manifest.csv": "b4f14975c138365e3a99dc10ba71b3f7aebae612ccdde2a89c6b33666c5ee1d7",
+    "fixed_effects.csv": "9203aa083d6b208bc2523ef75718b6609f0d906b5f6d9b55ba6d31cd16ae681a",
+    "fixed_effects_summary.json": "3cfd82cca648dcc1c9bf7bdfeaef1ba39c120ec52393e72195a6e471fdf8af63",
+    "forecast_metrics.csv": "fac83ee5dd9609d25c487b656272959586af3923011162f73a526e1a4ff85130",
+    "geographic_fold_assignments.csv": "5d5267f2da904001120e5e9d09624c21d513fb246cf32808040a4221358f33e6",
+    "geographic_metrics.csv": "98ee02b7da7ba96be38abfbbade9ded6a40993ec10bf0f211d6c153bef54a674",
+    "geography_audit.csv": "415c2dca03aa201655ca893761711537dbb324fa8a8442bc109df2d64db50e52",
+    "group_permutation.csv": "355902e2233b9f260210deb2b0c7046d2822558d99011de0b42ec44e32c6e82d",
+    "local_response_curves.csv": "b500f6e52b3cbcf98d5af9b35411d392d2f85d11bb13b7d03a223962ef47c6dc",
+    "missingness.csv": "fdf6bd1f80ca1337aa385845174068114e2165bdb7edd3dc1ef25a7727495044",
+    "run_summary.json": "39e132b67888aeb049817f5fa97d4871673d52ccf4f4e4281fb848486d0070cb",
+    "selection.json": "5678b2b9954ce87f45bbd7f4ca24984a779b0a068df86c662d92347d11cff0ad",
+    "source_key_audit.csv": "b9b001d84ca5d048a803b0eb60da9d50a3ca3df38f90262ddb0d9471490f4521",
+    "standardized_coefficients.csv": "b834e399758bfe2ca12428994e330b3772b4a4dd59e8a47ab10d5fa6e5eaa1ba",
+    "test_metrics.csv": "4ecefa5bacbcbc4b00944f24fc72ebfdbaed4746b83ea82b2231819970401726",
+    "test_predictions.csv": "3565e3858e7386c41a8edb71480122880527dc61d5363b8c5d742f1501bb1960",
+    "validation_metrics.csv": "ef4e7937ecfa80cc96272418155a0537f88dc7c30439bf45b549aa7b25daeec8"
+  },
+  "source_sha256": {
+    "src/modeling/county_characteristics.py": "f81886d5bfd96e07a6b1cb5973e70946eda5fe9b62b955600cd02e480fd0367a",
+    "src/modeling/county_price.py": "fd1772b7fc3684739c944f4f27c1a482025dc9bf716965007770ac12ac083117"
+  }
+}

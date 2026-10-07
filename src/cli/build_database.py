@@ -146,7 +146,7 @@ def build_database(database_path: Path = DATABASE_PATH) -> None:
 
         by_table = {table: [feature for feature in ACS_FEATURES if feature.table == table]
                     for table in ("dp02", "dp03", "dp04")}
-        for old_table in ("county_house_price_target", "county_housing", "county_economic_annual", "county_social_annual"):
+        for old_table in ("county_house_price_target", "county_price_forecast_panel", "county_housing", "county_economic_annual", "county_social_annual"):
             con.execute(f"DROP TABLE IF EXISTS feature.{old_table}")
 
         economic_columns = ",\n              ".join(_feature_select(feature, mappings) for feature in by_table["dp03"])

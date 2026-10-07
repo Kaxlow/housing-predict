@@ -1,0 +1,78 @@
+source_feature,feature,group,role,unit,transformation,reason,first_year
+agriculture_mining_industry_pct,agriculture_mining_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+arts_hospitality_food_industry_pct,arts_hospitality_food_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+average_family_size,average_family_size,social,primary,people,identity,Available in all three study periods,2010
+average_household_size,average_household_size,social,primary,people,identity,Available in all three study periods,2010
+average_owner_household_size,average_owner_household_size,housing,primary,people,identity,Available in all three study periods,2010
+average_renter_household_size,average_renter_household_size,housing,primary,people,identity,Available in all three study periods,2010
+bachelors_degree_or_higher_pct,bachelors_degree_or_higher_pct,social,primary,percent,identity,Available in all three study periods,2010
+built_1939_or_earlier_pct,built_1939_or_earlier_pct,housing,primary,percent,identity,Available in all three study periods,2010
+civilian_veterans_pct,civilian_veterans_pct,social,primary,percent,identity,Available in all three study periods,2010
+cohabiting_couple_household_pct,cohabiting_couple_household_pct,social,excluded,percent,identity,Definition unavailable in one or more study periods,2020
+construction_industry_pct,construction_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+detached_single_unit_pct,detached_single_unit_pct,housing,primary,percent,identity,Available in all three study periods,2010
+drove_alone_to_work_pct,drove_alone_to_work_pct,economic,primary,percent,identity,Available in all three study periods,2010
+education_health_social_services_industry_pct,education_health_social_services_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+employed_pct,employed_pct,economic,primary,percent,identity,Available in all three study periods,2010
+finance_real_estate_industry_pct,finance_real_estate_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+gross_rent_30_to_34_9_pct,gross_rent_30_to_34_9_pct,affordability,sensitivity,percent,identity,May reflect housing costs; evaluated separately,2010
+gross_rent_35_plus_pct,gross_rent_35_plus_pct,affordability,sensitivity,percent,identity,May reflect housing costs; evaluated separately,2010
+high_school_graduate_or_higher_pct,high_school_graduate_or_higher_pct,social,primary,percent,identity,Available in all three study periods,2010
+homeowner_vacancy_rate_pct,homeowner_vacancy_rate_pct,housing,primary,percent,identity,Available in all three study periods,2010
+householder_moved_1989_or_earlier_pct,householder_moved_1989_or_earlier_pct,housing,excluded,percent,identity,Definition unavailable in one or more study periods,2019
+households_with_children_pct,households_with_children_pct,social,primary,percent,identity,Available in all three study periods,2010
+households_with_elderly_pct,households_with_elderly_pct,social,primary,percent,identity,Available in all three study periods,2010
+households_without_broadband_pct,households_without_broadband_pct,social,excluded,percent,identity,No observed values in initial 2014 training period,2013
+households_without_computer_pct,households_without_computer_pct,social,excluded,percent,identity,No observed values in initial 2014 training period,2013
+housing_units,log1p__housing_units,housing,primary,housing units,log1p,Available in all three study periods,2010
+labor_force_pct,labor_force_pct,economic,primary,percent,identity,Available in all three study periods,2010
+large_multifamily_20_plus_units_pct,large_multifamily_20_plus_units_pct,housing,primary,percent,identity,Available in all three study periods,2010
+limited_english_proficiency_pct,limited_english_proficiency_pct,social,primary,percent,identity,Available in all three study periods,2010
+management_business_science_arts_occupation_pct,management_business_science_arts_occupation_pct,economic,primary,percent,identity,Available in all three study periods,2010
+manufacturing_industry_pct,manufacturing_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+married_couple_household_pct,married_couple_household_pct,social,excluded,percent,identity,Definition unavailable in one or more study periods,2019
+mean_cash_public_assistance_income_2024_usd,log1p__mean_cash_public_assistance_income_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+mean_commute_time_minutes,mean_commute_time_minutes,economic,primary,minutes,identity,Available in all three study periods,2010
+mean_household_earnings_2024_usd,log1p__mean_household_earnings_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+mean_retirement_income_2024_usd,log1p__mean_retirement_income_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+mean_social_security_income_2024_usd,log1p__mean_social_security_income_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+mean_supplemental_security_income_2024_usd,log1p__mean_supplemental_security_income_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+median_household_income_2024_usd,log1p__median_household_income_2024_usd,economic,primary,2024 USD,log1p,Available in all three study periods,2010
+median_rooms_per_unit,median_rooms_per_unit,housing,primary,rooms,identity,Available in all three study periods,2010
+mobile_home_pct,mobile_home_pct,housing,primary,percent,identity,Available in all three study periods,2010
+moved_different_county_pct,moved_different_county_pct,social,primary,percent,identity,Available in all three study periods,2010
+moved_different_state_pct,moved_different_state_pct,social,primary,percent,identity,Available in all three study periods,2010
+moved_from_abroad_pct,moved_from_abroad_pct,social,primary,percent,identity,Available in all three study periods,2010
+natural_resources_construction_maintenance_occupation_pct,natural_resources_construction_maintenance_occupation_pct,economic,primary,percent,identity,Available in all three study periods,2010
+owner_cost_30_to_34_9_pct,owner_cost_30_to_34_9_pct,affordability,sensitivity,percent,identity,May reflect housing costs; evaluated separately,2010
+owner_cost_35_plus_pct,owner_cost_35_plus_pct,affordability,sensitivity,percent,identity,May reflect housing costs; evaluated separately,2010
+owner_occupied_pct,owner_occupied_pct,housing,primary,percent,identity,Available in all three study periods,2010
+production_transportation_material_moving_occupation_pct,production_transportation_material_moving_occupation_pct,economic,primary,percent,identity,Available in all three study periods,2010
+professional_services_industry_pct,professional_services_industry_pct,economic,primary,percent,identity,Available in all three study periods,2010
+public_transit_to_work_pct,public_transit_to_work_pct,economic,primary,percent,identity,Available in all three study periods,2010
+rental_vacancy_rate_pct,rental_vacancy_rate_pct,housing,primary,percent,identity,Available in all three study periods,2010
+renter_occupied_pct,renter_occupied_pct,housing,excluded,percent,identity,Complement of another included percentage,2010
+sales_office_occupation_pct,sales_office_occupation_pct,economic,primary,percent,identity,Available in all three study periods,2010
+service_occupation_pct,service_occupation_pct,economic,primary,percent,identity,Available in all three study periods,2010
+single_female_householder_pct,single_female_householder_pct,social,excluded,percent,identity,Definition unavailable in one or more study periods,2019
+single_male_householder_pct,single_male_householder_pct,social,excluded,percent,identity,Definition unavailable in one or more study periods,2019
+target_median_owner_occupied_home_value_2024_usd,target_median_owner_occupied_home_value_2024_usd,housing,target,2024 USD,identity,Outcome; never a characteristics predictor,2010
+unemployment_rate_pct,unemployment_rate_pct,economic,excluded,percent,identity,Definition unavailable in one or more study periods,2015
+vacant_housing_units_pct,vacant_housing_units_pct,housing,primary,percent,identity,Available in all three study periods,2010
+walked_to_work_pct,walked_to_work_pct,economic,primary,percent,identity,Available in all three study periods,2010
+with_disability_pct,with_disability_pct,social,primary,percent,identity,Available in all three study periods,2010
+with_health_insurance_pct,with_health_insurance_pct,economic,primary,percent,identity,Available in all three study periods,2010
+with_mortgage_pct,with_mortgage_pct,affordability,sensitivity,percent,identity,May reflect housing costs; evaluated separately,2010
+without_health_insurance_pct,without_health_insurance_pct,economic,primary,percent,identity,Available in all three study periods,2010
+without_mortgage_pct,without_mortgage_pct,affordability,excluded,percent,identity,Complement of another included percentage,2010
+women_with_birth_past_12_months_count,log1p__women_with_birth_past_12_months_count,social,primary,people,log1p,Available in all three study periods,2010
+worked_from_home_pct,worked_from_home_pct,economic,primary,percent,identity,Available in all three study periods,2010
+disaster_count,log1p__period_sum__disaster_count,hazards,primary,five-year sum,log1p,Events summed over the same five-year ACS window,2010
+storm_event_count,log1p__period_sum__storm_event_count,hazards,primary,five-year sum,log1p,Events summed over the same five-year ACS window,2010
+storm_damage_2024_usd,log1p__period_sum__storm_damage_2024_usd,hazards,primary,five-year sum,log1p,Events summed over the same five-year ACS window,2010
+storm_injuries,log1p__period_sum__storm_injuries,hazards,primary,five-year sum,log1p,Events summed over the same five-year ACS window,2010
+storm_deaths,log1p__period_sum__storm_deaths,hazards,primary,five-year sum,log1p,Events summed over the same five-year ACS window,2010
+avg_temperature_f,period_mean__avg_temperature_f,climate,sensitivity,five-year mean of annual measure,mean,Covered-county sensitivity only,2010
+min_temperature_f,period_mean__min_temperature_f,climate,sensitivity,five-year mean of annual measure,mean,Covered-county sensitivity only,2010
+max_temperature_f,period_mean__max_temperature_f,climate,sensitivity,five-year mean of annual measure,mean,Covered-county sensitivity only,2010
+precipitation_inches,period_mean__precipitation_inches,climate,sensitivity,five-year mean of annual measure,mean,Covered-county sensitivity only,2010
