@@ -1,8 +1,7 @@
 # Explore the analysis
 
-Three executed notebooks explain the completed October 6, 2026 county housing
-study. These are reconstructed walkthroughs of the final pipeline, not the
-original exploratory research log. Outputs are retained for reading on GitHub.
+The `03_modeling` notebooks show the modeling pipeline used for the county housing
+study. Outputs are retained for reading on GitHub.
 
 1. [Modeling dataset](01_modeling_dataset.ipynb): observations, source audits,
    feature definitions, exclusions, five-year transformations and missingness.
@@ -18,7 +17,7 @@ original exploratory research log. Outputs are retained for reading on GitHub.
 From the repository or standalone analysis bundle root:
 
 ```sh
-python -m pip install -r notebooks/03_modeling/requirements.txt
+python -m pip install -r requirements.txt
 python -m jupyterlab notebooks/03_modeling
 ```
 
@@ -53,13 +52,10 @@ credentials, or local source paths. No synthetic observations are used.
 `snapshot.json` records SHA-256 hashes for artifacts and the two shared modeling
 modules. Every notebook verifies evidence hashes before proceeding.
 `run_summary.json` records the original run's software versions, seed, sample,
-panel fingerprint and limitations. `requirements.txt` pins the notebook execution
+panel fingerprint and limitations. The root [requirements.txt](../../requirements.txt) pins the notebook execution
 environment. Numerical reproduction may vary on other software/platform versions.
 
 The final holdout is 2024. Historical saved outcomes are exposed here for
 transparency; they are not a new unseen test set for subsequent experimentation.
-If new modeling decisions are made after inspecting them, describe that as a
+If new modeling decisions are made after inspecting them, that would constitute a
 new exploratory analysis rather than an untouched final evaluation.
-
-The website remains a presentation layer: training runs offline.
-[View the interactive study](https://kennethlow.com/housing-predict/).

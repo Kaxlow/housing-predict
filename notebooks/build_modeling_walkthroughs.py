@@ -137,7 +137,14 @@ print(f"{len(panel):,} unique county-period observations")'''),
         hazards, climate and county labels. Duplicate keys fail the run; rows lost in the
         inner join are recorded. Here we inspect the full-run audit, not just the small example.
         Missing metro labels remain `Unknown`. Exclusion counts below are source county-year
-        rows by reason, not necessarily distinct study counties.'''),
+        rows by reason, not necessarily distinct study counties.
+        
+        The geography audit has one row per county FIPS code. Its two flags control eligibility for comparisons of the same county over time:
+        
+        - **`boundary_review`** is `True` when the FIPS code is in the explicit `BOUNDARY_REVIEW` set in `src/modeling/county_characteristics.py`, or starts with `09` (Connecticut). These places are flagged for possible boundary or identifier changes. This is a conservative screen: the code does not reconcile historical boundaries to a common geography, and `False` is not proof that boundaries never changed. Flagged places remain eligible for cross-sectional analyses.
+        - **`balanced_geography`** is `True` only when the same county FIPS code appears in all three study periods (ending in 2014, 2019 and 2024) after rows with missing or nonpositive home-value targets are removed, and `boundary_review` is `False`. In code, this is `(periods == 3) & ~boundary_review`. This establishes geography eligibility for the longitudinal fixed-effects analysis; that analysis separately requires complete values for its selected predictors in all three periods.
+        
+        Read the grouped table below as follows: `False / True` means present in all three periods and not flagged; `False / False` means not flagged but missing at least one period; `True / False` means flagged, regardless of period coverage. `True / True` cannot occur by construction. The counts in this table are distinct county FIPS codes, not county-period rows.'''),
         code('''audit = read_csv("source_key_audit.csv")
 assert audit.duplicate_keys.eq(0).all()
 display(audit)
@@ -146,12 +153,33 @@ display(exclusions.groupby("reason").size().rename("source_county_year_rows").to
 geography = read_csv("geography_audit.csv")
 display(geography.groupby(["boundary_review", "balanced_geography"]).size().rename("counties").to_frame())'''),
         md('''## 3. Establish a feature contract
-
+        
         Economic, social, housing structure and hazard variables form the primary design.
-        Climate is a covered-county sensitivity analysis. Affordability and mortgage measures
-        are separate because they can already reflect housing costs. Previous values,
-        geographic price summaries, IDs and target-derived ratios are excluded.
-
+        Climate, affordability and mortgage measures are evaluated in separate **sensitivity analyses**:
+        additional model runs that check how held-out prediction performance changes when these
+        inputs are added to the primary features.
+        
+        - **Climate is a covered-county sensitivity analysis.** Climate inputs are five-year
+          averages of temperature and precipitation, requiring five observed annual values for
+          each measure. The climate experiment keeps only county-period rows with all retained
+          climate inputs observed, separately in the 2014/2019 training data and the 2024 test
+          data. It fits a primary-features model and a primary-plus-climate model on the same
+          restricted training rows, then evaluates both on the same restricted test rows.
+          This matched comparison helps distinguish the contribution of climate inputs from
+          differences caused by changing the sample. Its results apply to the covered subset;
+          they do not establish that the same improvement would occur across all counties.
+        - **Affordability and mortgage measures are separate from the primary design.** These
+          include the shares of households spending 30–34.9% or at least 35% of income on rent
+          or owner costs, and the share of owner-occupied homes with a mortgage. They may
+          already reflect housing costs and financing conditions, so adding them can help
+          predict home values while making it harder to interpret the model as an explanation
+          based on broader county characteristics. The affordability experiment compares the
+          primary features with primary features plus these measures using the full development
+          and test samples, without the climate coverage restriction. Mortgage measures belong
+          to this affordability group; they are not a third, standalone experiment. Improved
+          prediction here would not demonstrate a causal effect on home values.
+        
+        Previous values, geographic price summaries, IDs and target-derived ratios are excluded.
         Definitions must exist in all three periods. Availability is then checked using
         **2014 only**: broadband/computer measures have no initial observed values.
         Redundant owner/renter and mortgage/no-mortgage categories are not both included.'''),
@@ -505,13 +533,24 @@ plt.tight_layout(); plt.show()
 display(curves.groupby("feature").agg(bins=("rows", "size"), smallest_bin=("rows", "min")))'''),
         md('''## 7. Keep the secondary questions distinct
 
-        County-and-period fixed effects study changes within stable counties. Their
-        within R² has a different denominator than the cross-county prediction R².
-        Intervals use county-clustered uncertainty. The annual forecast experiment
-        predicts the next ACS estimate; overlapping survey windows and unreconstructed
-        release/CPI vintages prevent an operational forecasting claim.
-        These saved summaries provide context; full implementation is in
-        `src/modeling/county_characteristics.py` and [COUNTY_STUDY.md](../../COUNTY_STUDY.md).'''),
+**Within R² and cross-county prediction R² answer different questions.** The main model measures how well county characteristics predict differences in home values across counties in the held-out 2024 period. Its dollar-scale R² equals one minus the sum of squared prediction errors divided by the sum of squared deviations of observed 2024 values from their cross-county mean. The reported **0.801** means it accounts for about 80.1% of that variation. The holdout is a later period; these are not necessarily counties absent from training.'''),
+        md('''The fixed-effects regression instead studies whether changes in characteristics within the same county are associated with changes in its log home value, after accounting for changes shared across counties. It uses 3,121 geographically screened counties observed in all three periods (2014, 2019 and 2024). For both the outcome and each predictor, it subtracts the county mean and the period mean, then adds back the overall mean. Its within R² equals one minus the sum of squared regression residuals divided by the sum of squared, doubly demeaned log outcomes. Thus **0.132** means the six predictors explain about 13.2% of the log-value variation remaining after county and period effects are removed. This is an in-sample association measure using all three periods, including 2024. It is not directly comparable to 0.801: the outcome scale, denominator, sample, predictors and evaluation design differ. In other words, explaining why some counties are expensive does not necessarily explain why a particular county becomes more expensive over time.'''),
+        md('''**County-clustered uncertainty describes the coefficient confidence intervals.** Errors for the same county can be correlated across periods, so the regression does not treat all 9,363 county-period rows as independent when estimating uncertainty. County-clustered standard errors allow unequal error variances and correlation within each county. The 95% intervals are the coefficient plus or minus a t critical value times its clustered standard error, with 3,121 − 1 degrees of freedom. The covariance also receives a finite-sample correction accounting for the absorbed county and period effects. Clustering changes the estimated uncertainty, not the coefficients or within R². These are confidence intervals for associations, not prediction intervals for individual counties. They assume independence across counties, do not account for spatial correlation between neighboring counties, and do not establish causality.'''),
+        md('''### Experiment comparison
+
+**The annual forecast experiment is a separate test that includes 2024.** The designs differ as follows:
+
+| Design aspect | Main characteristics-only test | Secondary annual forecast experiment |
+|---|---|---|
+| Question | Do relationships learned in earlier periods transfer to 2024? | Do characteristics improve prediction of the next ACS estimate beyond price history? |
+| Inputs | Same-period 2024 characteristics, without price history | Observed prior-year price history, with or without prior-year characteristics |
+| Selection and fitting | Select on 2019; refit on 2014 + 2019 | Tune on expanding 2018–2022 validation folds; fit on target years through 2022 |
+| Test targets | 2024 | 2023 and 2024, separately and pooled in the `all` rows |'''),
+        md('''In the annual experiment, 2022 inputs predict the 2023 estimate and observed 2023 inputs predict the 2024 estimate. The fitted parameters stay fixed; the 2024 prediction does not recursively use the model's predicted 2023 value. The experiment compares carrying forward the previous value, a learned history-only model, and a learned history-plus-characteristics model on identical eligible rows.
+
+Here “annual” refers to successive releases of ACS five-year estimates, not single-year home prices. For example, the estimates labeled 2023 and 2024 cover 2019–2023 and 2020–2024, so four survey years overlap. The experiment also does not reconstruct which data releases and inflation (CPI) vintages were available at each historical prediction date. It is therefore a retrospective next-estimate comparison, not evidence that these forecasts could have been issued operationally at the end of the prior calendar year.
+
+These saved summaries provide context; full implementation is in [county_characteristics.py](../../src/modeling/county_characteristics.py) and [COUNTY_STUDY.md](../../COUNTY_STUDY.md).'''),
         code('''display(pd.Series(read_json("fixed_effects_summary.json")))
 display(read_csv("fixed_effects.csv"))
 display(read_csv("forecast_metrics.csv"))'''),
