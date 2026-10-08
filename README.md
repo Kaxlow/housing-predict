@@ -1,6 +1,6 @@
-# County characteristics and US home values
+# A Dissection of Home Values
 
-How much can county characteristics explain differences in home values, and how
+How much can county characteristics explain differences in home values across the US, and how
 well do those relationships generalize across places and time?
 
 [Explore the interactive study](https://kennethlow.com/housing-predict/) ·
